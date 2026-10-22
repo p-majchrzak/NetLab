@@ -67,7 +67,6 @@
       "question": "Dopasuj podsieć do adresu hosta, który byłby zawarty w podsieci. (Nie wszystkie opcje są używane.)",
       "options": [],
       "correctAnswers": [],
-      "image": "pictures/quiz_1/question_5.png",
       "matching": {
         "pairs": [
           {
@@ -172,7 +171,6 @@
       "question": "Dopasuj każdy adres IPv4 do odpowiedniej kategorii adresowej. (Nie wszystkie opcje są używane.)",
       "options": [],
       "correctAnswers": [],
-      "image": "pictures/quiz_1/question_10.png",
       "matching": {
         "pairs": [
           {
@@ -343,7 +341,6 @@
       "question": "Zapoznaj się z eksponatem. Dopasuj sieć do poprawnego adresu IP i prefiksu, który spełni wymagania adresowania hosta dla każdej sieci.",
       "options": [],
       "correctAnswers": [],
-      "image": "pictures/quiz_1/question_17.png",
       "matching": {
         "pairs": [
           {
@@ -598,7 +595,6 @@
       "question": "Dopasuj adres IPv6 do typu adresu IPv6. (Nie wszystkie opcje są używane.)",
       "options": [],
       "correctAnswers": [],
-      "image": "pictures/quiz_1/question_32.png",
       "matching": {
         "pairs": [
           {
@@ -722,7 +718,6 @@
       "question": "Trzy metody pozwalają na współistnienie IPv6 i IPv4. Dopasuj każdą metodę do jej opisu. (Nie wszystkie opcje są używane.)",
       "options": [],
       "correctAnswers": [],
-      "image": "pictures/quiz_1/question_38.png",
       "matching": {
         "pairs": [
           {
@@ -866,7 +861,6 @@
       "question": "Dopasuj każdy opis do odpowiedniego adresu IP. (Nie wszystkie opcje są używane.)",
       "options": [],
       "correctAnswers": [],
-      "image": "pictures/quiz_1/question_46.png",
       "matching": {
         "pairs": [
           {
