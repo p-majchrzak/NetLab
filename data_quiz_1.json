@@ -403,18 +403,20 @@
     },
     {
       "id": 19,
-      "type": "single",
+      "type": "multi",
       "question": "Które trzy adresy są prawidłowymi adresami publicznymi? (Wybierz trzy.)",
       "options": [
         "198.133.219.17",
         "192.168.1.245",
         "10.15.250.5",
         "128.107.12.117",
-        "172.31.1.25"
+        "172.31.1.25",
+        "64.104.78.227"
       ],
       "correctAnswers": [
         "198.133.219.17",
-        "128.107.12.117"
+        "128.107.12.117",
+        "64.104.78.227"
       ]
     },
     {
@@ -509,7 +511,7 @@
     {
       "id": 26,
       "type": "open",
-      "question": "Rozważ następujący zakres adresów: 2001:0DB8:BC15:00A0:0000:: 2001:0DB8:BC15:00A1:0000:: 2001:0DB8:BC15:00A2:0000:: ... 2001:0DB8:BC15:00AF:0000:: Długość prefiksu dla zakresu adresów to /60 .",
+      "question": "Rozważ następujący zakres adresów: 2001:0DB8:BC15:00A0:0000:: 2001:0DB8:BC15:00A1:0000:: 2001:0DB8:BC15:00A2:0000:: ... 2001:0DB8:BC15:00AF:0000::",
       "options": [],
       "correctAnswers": [
         "/60"
@@ -531,8 +533,7 @@
       ],
       "correctAnswers": [
         "link-lokalny"
-      ],
-      "image": "pictures/quiz_1/image27.png"
+      ]
     },
     {
       "id": 28,
@@ -546,7 +547,8 @@
       ],
       "correctAnswers": [
         "16"
-      ]
+      ],
+      "image": "pictures/quiz_1/image28.png"
     },
     {
       "id": 29,
@@ -671,7 +673,7 @@
     },
     {
       "id": 35,
-      "type": "single",
+      "type": "multi",
       "question": "Jakie są dwa rodzaje adresów unicast IPv6? (Wybierz dwa.)",
       "options": [
         "multiemisja",
