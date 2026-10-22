@@ -1,0 +1,1281 @@
+{
+  "title": "Quiz 1",
+  "source": "Pytania.pdf",
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "question": "Jaka jest notacja długości prefiksu dla maski podsieci 255.255.255.224?",
+      "options": [
+        "/25",
+        "/26",
+        "/27",
+        "/28"
+      ],
+      "correctAnswers": [
+        "/27"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "question": "Ile poprawnych adresów hostów jest dostępnych w podsieci IPv4, która jest skonfigurowana z maską /26?",
+      "options": [
+        "254",
+        "190",
+        "192",
+        "62",
+        "64"
+      ],
+      "correctAnswers": [
+        "62"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "question": "Która maska podsieci byłaby użyta, gdyby dostępnych było 5 bitów hosta?",
+      "options": [
+        "255.255.2555.0",
+        "255.255.255.128",
+        "255.255.255.224",
+        "255.255.255.240"
+      ],
+      "correctAnswers": [
+        "255.255.255.224"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "question": "Administrator sieci podsieci sieci 192.168.10.0/24 do podsieci z maskami /26. Ile podsieci o tej samej wielkości jest tworzonych?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8",
+        "16",
+        "64"
+      ],
+      "correctAnswers": [
+        "4"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "matching",
+      "question": "Dopasuj podsieć do adresu hosta, który byłby zawarty w podsieci. (Nie wszystkie opcje są używane.)",
+      "options": [],
+      "correctAnswers": [],
+      "image": "pictures/quiz_1/question_5.png",
+      "matching": {
+        "pairs": [
+          {
+            "left": "192.168.1.32/27",
+            "right": "192.168.1.48"
+          },
+          {
+            "left": "192.168.1.64/27",
+            "right": "192.168.1.68"
+          },
+          {
+            "left": "192.168.1.96/27",
+            "right": "192.168.1.121"
+          }
+        ],
+        "choices": [
+          "192.168.1.63",
+          "192.168.1.68",
+          "192.168.1.128",
+          "192.168.1.48",
+          "192.168.1.121"
+        ],
+        "correct": [
+          [
+            "192.168.1.32/27",
+            "192.168.1.48"
+          ],
+          [
+            "192.168.1.64/27",
+            "192.168.1.68"
+          ],
+          [
+            "192.168.1.96/27",
+            "192.168.1.121"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "question": "Administrator chce utworzyć cztery podsieci z adresu sieciowego 192.168.1.0/24. Jaki jest adres sieciowy i maska podsieci drugiej użytecznej podsieci?",
+      "options": [
+        "subnetwork 192.168.1.64 subnet mask 255.255.255.192",
+        "subnetwork 192.168.1.32 subnet mask 255.255.255.240",
+        "subnetwork 192.168.1.64 subnet mask 255.255.255.240",
+        "subnetwork 192.168.1.128 subnet mask 255.255.255.192",
+        "subnetwork 192.168.1.8 subnet mask 255.255.255.224"
+      ],
+      "correctAnswers": [
+        "subnetwork 192.168.1.64 subnet mask 255.255.255.192"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "question": "Ile bitów trzeba zapożyczyć z części hosta adresu, aby pomieścić router z pięcioma połączonymi sieciami?",
+      "options": [
+        "dwa",
+        "trzy",
+        "cztery",
+        "pięć"
+      ],
+      "correctAnswers": [
+        "trzy"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "question": "Ile adresów hostów jest dostępnych w sieci 192.168.10.128/26?",
+      "options": [
+        "30",
+        "32",
+        "60",
+        "62",
+        "64"
+      ],
+      "correctAnswers": [
+        "62"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "question": "Ile adresów hostów jest dostępnych w sieci 172.16.128.0 z maską podsieci 255.255.252.0?",
+      "options": [
+        "510",
+        "512",
+        "1022",
+        "1024",
+        "2046",
+        "2048"
+      ],
+      "correctAnswers": [
+        "1022"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "matching",
+      "question": "Dopasuj każdy adres IPv4 do odpowiedniej kategorii adresowej. (Nie wszystkie opcje są używane.)",
+      "options": [],
+      "correctAnswers": [],
+      "image": "pictures/quiz_1/question_10.png",
+      "matching": {
+        "pairs": [
+          {
+            "left": "192.168.100.161/25",
+            "right": "Adres hosta"
+          },
+          {
+            "left": "192.168.1.191/26",
+            "right": "Adres transmisji"
+          },
+          {
+            "left": "10.10.10.128/25",
+            "right": "Adres sieci"
+          },
+          {
+            "left": "224.10.0.254/24",
+            "right": "Adres multiemisji"
+          },
+          {
+            "left": "203.0.113.100/24",
+            "right": "Adres hosta"
+          },
+          {
+            "left": "172.110.12.64/28",
+            "right": "Adres sieci"
+          },
+          {
+            "left": "10.0.0.159/27",
+            "right": "Adres transmisji"
+          }
+        ],
+        "choices": [
+          "Adres hosta",
+          "Adres transmisji",
+          "Adres sieci",
+          "Adres multiemisji"
+        ],
+        "correct": [
+          [
+            "192.168.100.161/25",
+            "Adres hosta"
+          ],
+          [
+            "192.168.1.191/26",
+            "Adres transmisji"
+          ],
+          [
+            "10.10.10.128/25",
+            "Adres sieci"
+          ],
+          [
+            "224.10.0.254/24",
+            "Adres multiemisji"
+          ],
+          [
+            "203.0.113.100/24",
+            "Adres hosta"
+          ],
+          [
+            "172.110.12.64/28",
+            "Adres sieci"
+          ],
+          [
+            "10.0.0.159/27",
+            "Adres transmisji"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "type": "multi",
+      "question": "Jakie trzy bloki adresów są zdefiniowane przez RFC 1918 do użytku sieci prywatnej? (Wybierz trzy.)",
+      "options": [
+        "10.0.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/16",
+        "100,64,0,0/14",
+        "169.254.0.0/16",
+        "239.0.0.0/8"
+      ],
+      "correctAnswers": [
+        "10.0.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/16"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "question": "Zapoznaj się z eksponatem. Administrator musi wysłać wiadomość do wszystkich w sieci routera A. Jaki jest adres transmisji dla sieci 172.16.16.0/22?",
+      "options": [
+        "172.16.16.255",
+        "172.16.20.255",
+        "172.16.19.255",
+        "172.16.23.255",
+        "172.16.255.255"
+      ],
+      "correctAnswers": [
+        "172.16.19.255"
+      ],
+      "image": "pictures/quiz_1/image12.png"
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "question": "Administratorowi witryny powiedziano, że dana sieć w witrynie musi pomieścić 126 hostów. Która maska podsieci byłaby użyta, która zawiera wymaganą liczbę bitów hosta?",
+      "options": [
+        "255.255.2555.0",
+        "255.255.255.128",
+        "255.255.255.224",
+        "255.255.255.240"
+      ],
+      "correctAnswers": [
+        "255.255.255.128"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "question": "Zapoznaj się z eksponatem. Biorąc pod uwagę już używane adresy i muszą pozostać w zakresie sieci 10.16.10.0/24, który adres podsieci może być przypisany do sieci zawierającej 25 hostów?",
+      "options": [
+        "10.16.10.160/26",
+        "10.16.10.128/28",
+        "10.16.10.64/27",
+        "10.16.10.224/26",
+        "10.16.10.240/27",
+        "10.16.10.240/28"
+      ],
+      "correctAnswers": [
+        "10.16.10.64/27"
+      ],
+      "image": "pictures/quiz_1/image_14.png"
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "question": "Jaka jest użyteczna liczba adresów IP hosta w sieci, która ma maskę /26?",
+      "options": [
+        "256",
+        "254",
+        "64",
+        "62",
+        "32",
+        "16"
+      ],
+      "correctAnswers": [
+        "62"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "question": "Który zakres prefiksów adresowych jest zarezerwowany dla multiemisji IPv4?",
+      "options": [
+        "240.0.0.0 – 254.255.255.255",
+        "224.0.0.0 – 239.255.255.255",
+        "169.254.0.0 – 169.254.255.255",
+        "127.0.0.0 – 127.255.255.255"
+      ],
+      "correctAnswers": [
+        "224.0.0.0 – 239.255.255.255"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "matching",
+      "question": "Zapoznaj się z eksponatem. Dopasuj sieć do poprawnego adresu IP i prefiksu, który spełni wymagania adresowania hosta dla każdej sieci.",
+      "options": [],
+      "correctAnswers": [],
+      "image": "pictures/quiz_1/question_17.png",
+      "matching": {
+        "pairs": [
+          {
+            "left": "Sieć A",
+            "right": "192.168.0.128/25"
+          },
+          {
+            "left": "Sieć B",
+            "right": "192.168.0.0/26"
+          },
+          {
+            "left": "Sieć C",
+            "right": "192.168.0.96/27"
+          },
+          {
+            "left": "Sieć D",
+            "right": "192.168.0.80/30"
+          }
+        ],
+        "choices": [
+          "192.168.0.128/25",
+          "192.168.0.0/26",
+          "192.168.0.96/27",
+          "192.168.0.80/30"
+        ],
+        "correct": [
+          [
+            "Sieć A",
+            "192.168.0.128/25"
+          ],
+          [
+            "Sieć B",
+            "192.168.0.0/26"
+          ],
+          [
+            "Sieć C",
+            "192.168.0.96/27"
+          ],
+          [
+            "Sieć D",
+            "192.168.0.80/30"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "question": "Szkoła średnia w Nowym Jorku (szkoła A) wykorzystuje technologię wideokonferencji do nawiązywania interakcji uczniów z inną szkołą średnią (szkoła B) w Rosji. Wideokonferencje prowadzone są między dwoma urządzeniami końcowymi za pośrednictwem Internetu. Administrator sieci szkoły A konfiguruje urządzenie końcowe z adresem IP 209.165.201.10. Administrator wysyła prośbę o adres IP dla urządzenia końcowego w szkole B, a odpowiedź to 192.168.25.10. Żadna szkoła nie używa VPN. Administrator od razu wie, że ten adres IP nie będzie działał. Dlaczego?",
+      "options": [
+        "To jest adres pętli zwrotnej.",
+        "To jest adres link-local.",
+        "To jest prywatny adres IP.",
+        "Występuje konflikt adresów IP."
+      ],
+      "correctAnswers": [
+        "To jest prywatny adres IP."
+      ]
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "question": "Które trzy adresy są prawidłowymi adresami publicznymi? (Wybierz trzy.)",
+      "options": [
+        "198.133.219.17",
+        "192.168.1.245",
+        "10.15.250.5",
+        "128.107.12.117",
+        "172.31.1.25"
+      ],
+      "correctAnswers": [
+        "198.133.219.17",
+        "128.107.12.117"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "question": "Wiadomość jest wysyłana do wszystkich hostów w sieci zdalnej. Jaki to rodzaj wiadomości?",
+      "options": [
+        "limitowana transmisja",
+        "multiemisja",
+        "transmisja kierowana",
+        "unicast"
+      ],
+      "correctAnswers": [
+        "transmisja kierowana"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "multi",
+      "question": "Firma ma adres sieciowy 192.168.1.64 z maską podsieci 255.255.255.192. Firma chce stworzyć dwie podsieci, które zawierałyby odpowiednio 10 hostów i 18 hostów. Które dwie sieci to osiągnęłyby? (Wybierz dwa.)",
+      "options": [
+        "192.168.1.16/28",
+        "192.168.1.64/27",
+        "192,168,1,128/27",
+        "192.168.1.96/28",
+        "192,168.1.192/28"
+      ],
+      "correctAnswers": [
+        "192.168.1.64/27",
+        "192.168.1.96/28"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "single",
+      "question": "Który adres jest prawidłowym adresem unicast łącza IPv6?",
+      "options": [
+        "FEC8:1::FFFF",
+        "FD80::1:1234",
+        "FE80::1:4545:6578:ABC1",
+        "FE0A::100:7788:998F",
+        "FC90:5678:4251:FFFF"
+      ],
+      "correctAnswers": [
+        "FE80::1:4545:6578:ABC1"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "question": "Który z tych adresów jest najkrótszym skrótem adresu IP: 3FFE:1044:0000:0000:00AB:0000:0000:0057?",
+      "options": [
+        "3FFE:1044::AB::57",
+        "3FFE:1044::00AB::0057",
+        "3FFE:1044:0:0:AB::57",
+        "3FFE:044:0:0:00AB::0057",
+        "3FFE:1044:0000:0000:00AB::57",
+        "3FFE:1044:0000:0000:00AB::0057"
+      ],
+      "correctAnswers": [
+        "3FFE:1044:0:0:AB::57"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "question": "Administrator sieci otrzymał prefiks IPv6 2001:DB8::/48 dla podsieci. Zakładając, że administrator nie wchodzi podsieci do części identyfikatora interfejsu przestrzeni adresowej, ile podsieci może utworzyć administrator z prefiksu /48?",
+      "options": [
+        "16",
+        "256",
+        "4096",
+        "65536"
+      ],
+      "correctAnswers": [
+        "65536"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "question": "Biorąc pod uwagę prefiks adresu IPv6 2001:db8::/48, jaka będzie ostatnia podsieć, która zostanie utworzona, jeśli prefiks podsieci zostanie zmieniony na /52?",
+      "options": [
+        "2001:db8:0:f00::/52",
+        "2001:db8:0:8000::/52",
+        "2001:db8:0:f::/52",
+        "2001:db8:0:f000::/52"
+      ],
+      "correctAnswers": [
+        "2001:db8:0:f000::/52"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "open",
+      "question": "Rozważ następujący zakres adresów: 2001:0DB8:BC15:00A0:0000:: 2001:0DB8:BC15:00A1:0000:: 2001:0DB8:BC15:00A2:0000:: ... 2001:0DB8:BC15:00AF:0000:: Długość prefiksu dla zakresu adresów to /60 .",
+      "options": [],
+      "correctAnswers": [
+        "/60"
+      ],
+      "acceptedAnswers": [
+        "/60",
+        "/60."
+      ]
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "question": "Jaki typ adresu IPv6 to FE80::1?",
+      "options": [
+        "pętla zwrotna",
+        "link-lokalny",
+        "multiemisja",
+        "globalny unicast"
+      ],
+      "correctAnswers": [
+        "link-lokalny"
+      ],
+      "image": "pictures/quiz_1/image_27.png"
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "question": "Zapoznaj się z eksponatem. Firma wdraża schemat adresowania IPv6 dla swojej sieci. Dokument projektu firmy wskazuje, że część podsieci adresów IPv6 jest używana do nowego hierarchicznego projektu sieci, z podrozdziałem witryny, aby reprezentować wiele lokalizacji geograficznych firmy, sekcja podwitryny, aby reprezentować wiele kampusów w każdej witrynie, a sekcja podsieci, aby wskazać każdy segment sieci oddzielony routerami. Przy takim schemacie, jaka jest maksymalna liczba podsieci osiągniętych na podstronę? Zapoznaj się z eksponatem. Firma wdraża schemat adresowania IPv6 dla swojej sieci. Dokument projektu firmy wskazuje, że część podsieci adresów IPv6 jest używana do nowego hierarchicznego projektu sieci, z podsekcją site, aby reprezentować wiele lokalizacji geograficznych firmy, sekcja s ub- site, aby reprezentować wiele kampusów w każdej witrynie, a sekcja s ubnet, aby wskazać każdy segment sieci oddzielony przez routery. Przy takim schemacie, jaka jest maksymalna liczba podsieci osiągniętych na podstronę?",
+      "options": [
+        "0",
+        "4",
+        "16",
+        "256"
+      ],
+      "correctAnswers": [
+        "16"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "question": "Co jest używane w procesie EUI-64 do tworzenia identyfikatora interfejsu IPv6 na interfejsie obsługującym IPv6?",
+      "options": [
+        "adres MAC interfejsu z włączoną obsługą IPv6",
+        "losowo wygenerowany 64-bitowy adres szesnastkowy",
+        "adres IPv6, który jest dostarczany przez serwer DHCPv6",
+        "adres IPv4, który jest skonfigurowany na interfejsie"
+      ],
+      "correctAnswers": [
+        "adres MAC interfejsu z włączoną obsługą IPv6"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "question": "Jaki jest prefiks adresu hosta 2001:DB8:BC15:A:12AB::1/64?",
+      "options": [
+        "2001:DB8:BC15",
+        "2001:DB8:BC15:A",
+        "2001:DB8:BC15:A:1",
+        "2001:DB8:BC15:A:12"
+      ],
+      "correctAnswers": [
+        "2001:DB8:BC15:A"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "question": "Urządzenie z włączoną obsługą IPv6 wysyła pakiet danych z adresem docelowym FF02::1. Jaki jest cel tego pakietu?",
+      "options": [
+        "jedno urządzenie IPv6 na łączu, które zostało jednoznacznie skonfigurowane z tym adresem",
+        "wszystkie urządzenia obsługujące IPv6 w łączu lokalnym lub sieci",
+        "tylko serwery IPv6 DHCP",
+        "tylko routery skonfigurowane na IPv6"
+      ],
+      "correctAnswers": [
+        "wszystkie urządzenia obsługujące IPv6 w łączu lokalnym lub sieci"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "matching",
+      "question": "Dopasuj adres IPv6 do typu adresu IPv6. (Nie wszystkie opcje są używane.)",
+      "options": [],
+      "correctAnswers": [],
+      "image": "pictures/quiz_1/question_32.png",
+      "matching": {
+        "pairs": [
+          {
+            "left": "::1",
+            "right": "pętla zwrotna"
+          },
+          {
+            "left": "FF02::1",
+            "right": "wszystkie węzły multiemisji"
+          },
+          {
+            "left": "FF02::1:FFAE:F85F",
+            "right": "żądany węzeł multicast"
+          },
+          {
+            "left": "2001:DB8::BAF:3F57:FE94",
+            "right": "globalny unicast"
+          }
+        ],
+        "choices": [
+          "pętla zwrotna",
+          "wszystkie węzły multiemisji",
+          "żądany węzeł multicast",
+          "globalny unicast"
+        ],
+        "correct": [
+          [
+            "::1",
+            "pętla zwrotna"
+          ],
+          [
+            "FF02::1",
+            "wszystkie węzły multiemisji"
+          ],
+          [
+            "FF02::1:FFAE:F85F",
+            "żądany węzeł multicast"
+          ],
+          [
+            "2001:DB8::BAF:3F57:FE94",
+            "globalny unicast"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "question": "Który prefiks IPv6 jest zarezerwowany dla komunikacji między urządzeniami na tym samym łączu?",
+      "options": [
+        "FC00::/7",
+        "2001::/32",
+        "FE80::/10",
+        "FDFF::/7"
+      ],
+      "correctAnswers": [
+        "FE80::/10"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "single",
+      "question": "Który typ adresu IPv6 odnosi się do dowolnego adresu unicast, który jest przypisany do wielu hostów?",
+      "options": [
+        "unikalny lokalny",
+        "globalny unicast",
+        "link-lokalny",
+        "dowolnycast"
+      ],
+      "correctAnswers": [
+        "dowolnycast"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "question": "Jakie są dwa rodzaje adresów unicast IPv6? (Wybierz dwa.)",
+      "options": [
+        "multiemisja",
+        "pętla zwrotna",
+        "link-lokalny",
+        "dowolnycast",
+        "transmisja"
+      ],
+      "correctAnswers": [
+        "pętla zwrotna",
+        "link-lokalny"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "question": "Która usługa zapewnia dynamiczne globalne adresowanie IPv6 do urządzeń końcowych bez korzystania z serwera, który prowadzi rejestr dostępnych adresów IPv6?",
+      "options": [
+        "stanowy DHCPv6",
+        "SLAAC",
+        "statyczne adresowanie IPv6",
+        "bezstanowy DHCPv6"
+      ],
+      "correctAnswers": [
+        "SLAAC"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "question": "Który protokół obsługuje Autokonfigurację adresów bezstanowych (SLAAC) do dynamicznego przypisywania adresów IPv6 do hosta?",
+      "options": [
+        "ARPv6",
+        "DHCPv6",
+        "ICMPv6",
+        "UDP"
+      ],
+      "correctAnswers": [
+        "ICMPv6"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "matching",
+      "question": "Trzy metody pozwalają na współistnienie IPv6 i IPv4. Dopasuj każdą metodę do jej opisu. (Nie wszystkie opcje są używane.)",
+      "options": [],
+      "correctAnswers": [],
+      "image": "pictures/quiz_1/question_38.png",
+      "matching": {
+        "pairs": [
+          {
+            "left": "Pakiet IPv6 jest transportowany wewnątrz pakietu IPv4.",
+            "right": "tunelowanie"
+          },
+          {
+            "left": "Pakiety IPv6 są konwertowane na pakiety IPv4 i odwrotnie.",
+            "right": "tłumaczenie"
+          },
+          {
+            "left": "Urządzenia obsługują IPv4 i IPv6 równocześnie.",
+            "right": "dual stack"
+          }
+        ],
+        "choices": [
+          "dual stack",
+          "tunelowanie",
+          "tłumaczenie"
+        ],
+        "correct": [
+          [
+            "Pakiet IPv6 jest transportowany wewnątrz pakietu IPv4.",
+            "tunelowanie"
+          ],
+          [
+            "Pakiety IPv6 są konwertowane na pakiety IPv4 i odwrotnie.",
+            "tłumaczenie"
+          ],
+          [
+            "Urządzenia obsługują IPv4 i IPv6 równocześnie.",
+            "dual stack"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "question": "Technik używa polecenia ping 127.0.0.1. Co testuje technik?",
+      "options": [
+        "stos TCP/IP na hoście sieciowym",
+        "łączność między dwoma sąsiadującymi urządzeniami Cisco",
+        "łączność między komputerem a domyślną bramą",
+        "łączność między dwoma komputerami w tej samej sieci",
+        "fizyczna łączność konkretnego komputera i sieci"
+      ],
+      "correctAnswers": [
+        "stos TCP/IP na hoście sieciowym"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "single",
+      "question": "Zapoznaj się z eksponatem. Administrator próbuje rozwiązać problem z łącznością między PC1 i PC2 i używa do tego polecenia tracert z PC1. Na podstawie wyświetlanych danych wyjściowych, od czego powinien rozpocząć rozwiązywanie problemów administrator?",
+      "options": [
+        "PC2",
+        "R1",
+        "SW2",
+        "R2",
+        "SW1"
+      ],
+      "correctAnswers": [
+        "R1"
+      ],
+      "image": "pictures/quiz_1/image_40.png"
+    },
+    {
+      "id": 41,
+      "type": "single",
+      "question": "Który protokół jest używany przez polecenie traceroute do wysyłania i odbierania echo-request i echo-replies?",
+      "options": [
+        "SNMP",
+        "ICMP",
+        "Telnet",
+        "TCP"
+      ],
+      "correctAnswers": [
+        "ICMP"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "single",
+      "question": "Która wiadomość ICMPv6 jest wysyłana, gdy pole limitu przeskoku IPv6 pakietu jest zrekrementowane do zera i pakiet nie może zostać przekazany?",
+      "options": [
+        "sieć nieosiągalna",
+        "przekroczony czas",
+        "protokół nieosiągalny",
+        "port nieosiągalny"
+      ],
+      "correctAnswers": [
+        "przekroczony czas"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "single",
+      "question": "Użytkownik wykonuje traceroute przez IPv6. W którym momencie router w drodze do urządzenia docelowego upuściłby pakiet?",
+      "options": [
+        "gdy wartość pola Hom Limit osiągnie 255",
+        "gdy wartość pola Hom Limit osiągnie zero",
+        "gdy router otrzymuje komunikat ICMP przekroczony czas",
+        "gdy docelowy host odpowiada komunikatem odpowiedzi echo ICMP"
+      ],
+      "correctAnswers": [
+        "gdy wartość pola Hom Limit osiągnie zero"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "single",
+      "question": "Jaki jest cel wiadomości ICMP?",
+      "options": [
+        "aby informować routery o zmianach topologii sieci",
+        "aby zapewnić dostarczenie pakietu IP",
+        "aby zapewnić informacje zwrotne na temat transmisji pakietów IP",
+        "aby monitorować proces rozpoznawania nazwy domeny do adresu IP"
+      ],
+      "correctAnswers": [
+        "aby zapewnić informacje zwrotne na temat transmisji pakietów IP"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "question": "Jakiego źródłowego adresu IP używa router domyślnie, gdy wydawane jest polecenie traceroute?",
+      "options": [
+        "najwyższy skonfigurowany adres IP na routerze",
+        "adres IP pętli zwrotnej",
+        "adres IP interfejsu wychodzącego",
+        "najniższy skonfigurowany adres IP na routerze"
+      ],
+      "correctAnswers": [
+        "adres IP interfejsu wychodzącego"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "matching",
+      "question": "Dopasuj każdy opis do odpowiedniego adresu IP. (Nie wszystkie opcje są używane.)",
+      "options": [],
+      "correctAnswers": [],
+      "image": "pictures/quiz_1/question_46.png",
+      "matching": {
+        "pairs": [
+          {
+            "left": "adres lokalny",
+            "right": "169.254.1.5"
+          },
+          {
+            "left": "adres TEST-NET",
+            "right": "192.0.2.123"
+          },
+          {
+            "left": "adres eksperymentalny",
+            "right": "240.2.6.255"
+          },
+          {
+            "left": "prywatny adres",
+            "right": "172.19.20.5"
+          },
+          {
+            "left": "adres pętli zwrotnej",
+            "right": "127.0.0.1"
+          }
+        ],
+        "choices": [
+          "169.254.1.5",
+          "192.0.2.123",
+          "240.2.6.255",
+          "172.19.20.5",
+          "127.0.0.1"
+        ],
+        "correct": [
+          [
+            "adres lokalny",
+            "169.254.1.5"
+          ],
+          [
+            "adres TEST-NET",
+            "192.0.2.123"
+          ],
+          [
+            "adres eksperymentalny",
+            "240.2.6.255"
+          ],
+          [
+            "prywatny adres",
+            "172.19.20.5"
+          ],
+          [
+            "adres pętli zwrotnej",
+            "127.0.0.1"
+          ]
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 192.135.250.103 i otrzymuje odpowiedź, która zawiera kod 1. Co reprezentuje ten kod?",
+      "options": [
+        "nieosiągalny gospodarz",
+        "protokół nieosiągalny",
+        "port nieosiągalny",
+        "sieć nieosiągalna"
+      ],
+      "correctAnswers": [
+        "nieosiągalny gospodarz"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "single",
+      "question": "Która podsieć zawierałaby adres 192.168.1.96 jako użyteczny adres hosta?",
+      "options": [
+        "192.168.1.64/26",
+        "192.168.1.32/27",
+        "192.168.1.32/28",
+        "192.168.1.64/29"
+      ],
+      "correctAnswers": [
+        "192.168.1.64/26"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "multi",
+      "question": "Otwórz ćwiczenie PT. Wykonaj zadania w instrukcjach ćwiczenia, a następnie odpowiedz na pytanie. Jakie są trzy adresy IPv6 wyświetlane, gdy trasa z PC1 do PC2 jest śledzona? (Wybierz trzy.)",
+      "options": [
+        "2001:DB8:1:1::1",
+        "2001:DB8:1:1::A",
+        "2001:DB8:1:2::2",
+        "2001:DB8:1:2::1",
+        "2001:DB8:1:3::1",
+        "2001:DB8:1:3::2",
+        "2001:DB8:1:4::1"
+      ],
+      "correctAnswers": [
+        "2001:DB8:1:1::1",
+        "2001:DB8:1:2::1",
+        "2001:DB8:1:3::2"
+      ],
+      "image": "pictures/quiz_1/image_49.png"
+    },
+    {
+      "id": 50,
+      "type": "single",
+      "question": "Gospodarz transmituje transmisję. Który gospodarz lub gospodarze to otrzymają?",
+      "options": [
+        "wszystkie hosty w tej samej podsieci",
+        "specjalnie zdefiniowana grupa gospodarzy",
+        "najbliższy sąsiad w tej samej sieci",
+        "wszyscy gospodarze w Internecie"
+      ],
+      "correctAnswers": [
+        "wszystkie hosty w tej samej podsieci"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "question": "Host przesyła unicast. Który gospodarz lub gospodarze to otrzymają?",
+      "options": [
+        "jeden konkretny gospodarz",
+        "specjalnie zdefiniowana grupa gospodarzy",
+        "wszyscy gospodarze w Internecie",
+        "najbliższy sąsiad w tej samej sieci"
+      ],
+      "correctAnswers": [
+        "jeden konkretny gospodarz"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 2001:db8:FACE:39::10 i otrzymuje odpowiedź, która zawiera kod 3. Co reprezentuje ten kod?",
+      "options": [
+        "adres nieosiągalny",
+        "sieć nieosiągalna",
+        "nieosiągalny gospodarz",
+        "protokół nieosiągalny"
+      ],
+      "correctAnswers": [
+        "adres nieosiągalny"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "single",
+      "question": "Host przesyła multiemisję. Który gospodarz lub gospodarze to otrzymają?",
+      "options": [
+        "specjalnie zdefiniowana grupa gospodarzy",
+        "najbliższy sąsiad w tej samej sieci",
+        "jeden konkretny gospodarz",
+        "bezpośrednio podłączone urządzenia sieciowe"
+      ],
+      "correctAnswers": [
+        "specjalnie zdefiniowana grupa gospodarzy"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 2001:0db8:0000:0000:0000:a0b0:0008:0001?",
+      "options": [
+        "2001:db8::a0b0:8:1",
+        "2001:db8::ab8:1:0:1000",
+        "2001:db80:0:1::80:1",
+        "2001:db80:::1::80:1"
+      ],
+      "correctAnswers": [
+        "2001:db8::a0b0:8:1"
+      ]
+    },
+    {
+      "id": 61,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 fe80:09ea:0000:2200:0000:0000:0fe0:0290?",
+      "options": [
+        "fe80:9ea:0:2200::fe0:290",
+        "fe80:9:20::b000:290",
+        "fe80:9ea0::2020:0:bf:e0:9290",
+        "fe80:9ea0::2020::bf:e0:9290"
+      ],
+      "correctAnswers": [
+        "fe80:9ea:0:2200::fe0:290"
+      ]
+    },
+    {
+      "id": 62,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 2002:0042:0010:c400:0000:0000:0000:0909?",
+      "options": [
+        "2002:42:10:c400::909",
+        "200:420:110:c4b::910:0:90",
+        "2002:4200::25:1090:0:99",
+        "2002:42::25:1090:0:99"
+      ],
+      "correctAnswers": [
+        "2002:42:10:c400::909"
+      ]
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 2001:0db8:0000:0000:0ab8:0001:0000:1000?",
+      "options": [
+        "2001:db8::ab8:1:0:1000",
+        "2001:db8::a0b0:8:1",
+        "2001:db8:1::ab8:0:1",
+        "2001:db8:0:1::8:1"
+      ],
+      "correctAnswers": [
+        "2001:db8::ab8:1:0:1000"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 2002:0420:00c4:1008:0025:0190:0000:0990?",
+      "options": [
+        "2002:420:c4:1008:25:190::990",
+        "2002:42:10:c400::909",
+        "2002:4200::25:1090:0:99",
+        "2002:42::25:1090:0:99"
+      ],
+      "correctAnswers": [
+        "2002:420:c4:1008:25:190::990"
+      ]
+    },
+    {
+      "id": 65,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 2001:0db8:0000:0000:0000:a0b0:0008:0001?",
+      "options": [
+        "2001:db8::a0b0:8:1",
+        "2001:db8:1::ab8:0:1",
+        "2001:db8::ab8:1:0:1000",
+        "2001:db8:0:1::8:1"
+      ],
+      "correctAnswers": [
+        "2001:db8::a0b0:8:1"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 fe80:0000:0000:0000:0220:0b3f:f0e0:0029?",
+      "options": [
+        "fe80::220:b3f:f0e0:29",
+        "fe80:9ea:0:2200::fe0:290",
+        "fe80:9ea0::2020:0:bf:e0:9290",
+        "fe80:9ea0::2020::bf:e0:9290"
+      ],
+      "correctAnswers": [
+        "fe80::220:b3f:f0e0:29"
+      ]
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 2001:0db8:0000:0000:0000:a0b0:0008:0001?",
+      "options": [
+        "2001:db8::a0b0:8:1",
+        "2001:db8::ab8:1:0:1000",
+        "2001:db80:0:1::80:1",
+        "2001:db8:0:1::8:1"
+      ],
+      "correctAnswers": [
+        "2001:db8::a0b0:8:1"
+      ]
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 2002:0042:0010:c400:0000:0000:0000:0909?",
+      "options": [
+        "2002:42:10:c400::909",
+        "2002:4200::25:1090:0:99",
+        "2002:420:c4:1008:25:190::990",
+        "2002:42::25:1090:0:99"
+      ],
+      "correctAnswers": [
+        "2002:42:10:c400::909"
+      ]
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "question": "Jaki jest skompresowany format adresu IPv6 fe80:09ea:0000:2200:0000:0000:0fe0:0290?",
+      "options": [
+        "fe80:9ea:0:2200::fe0:290",
+        "fe80:9ea0::2020:0:bf:e0:9290",
+        "fe80::220:b3f:f0e0:29",
+        "fe80::0220:0b3f:f0e0:0029"
+      ],
+      "correctAnswers": [
+        "fe80:9ea:0:2200::fe0:290"
+      ]
+    },
+    {
+      "id": 70,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 2001:db8:FACE:39::10 i otrzymuje odpowiedź, która zawiera kod 2. Co reprezentuje ten kod?",
+      "options": [
+        "poza zakresem adresu źródłowego",
+        "komunikacja z miejscem docelowym jest administracyjnie zabroniona",
+        "adres nieosiągalny",
+        "brak trasy do miejsca docelowego"
+      ],
+      "correctAnswers": [
+        "poza zakresem adresu źródłowego"
+      ]
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 192.135.250.103 i otrzymuje odpowiedź, która zawiera kod 1. Co reprezentuje ten kod?",
+      "options": [
+        "nieosiągalny gospodarz",
+        "poza zakresem adresu źródłowego",
+        "adres nieosiągalny",
+        "komunikacja z miejscem docelowym jest administracyjnie zabroniona"
+      ],
+      "correctAnswers": [
+        "nieosiągalny gospodarz"
+      ]
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping fe80:65ab:dcc1::100 i otrzymuje odpowiedź, która zawiera kod 3. Co reprezentuje ten kod?",
+      "options": [
+        "adres nieosiągalny",
+        "komunikacja z miejscem docelowym jest administracyjnie zabroniona",
+        "poza zakresem adresu źródłowego",
+        "brak trasy do miejsca docelowego"
+      ],
+      "correctAnswers": [
+        "adres nieosiągalny"
+      ]
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 10.10.14.67 i otrzymuje odpowiedź, która zawiera kod 0. Co reprezentuje ten kod?",
+      "options": [
+        "sieć nieosiągalna",
+        "protokół nieosiągalny",
+        "port nieosiągalny",
+        "nieosiągalny gospodarz"
+      ],
+      "correctAnswers": [
+        "sieć nieosiągalna"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping fe80:65ab:dcc1::100 i otrzymuje odpowiedź, która zawiera kod 4. Co reprezentuje ten kod?",
+      "options": [
+        "port nieosiągalny",
+        "nieosiągalny gospodarz",
+        "protokół nieosiągalny",
+        "sieć nieosiągalna"
+      ],
+      "correctAnswers": [
+        "port nieosiągalny"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 198.133.219.8 i otrzymuje odpowiedź, która zawiera kod 0. Co reprezentuje ten kod?",
+      "options": [
+        "sieć nieosiągalna",
+        "protokół nieosiągalny",
+        "port nieosiągalny",
+        "nieosiągalny gospodarz"
+      ],
+      "correctAnswers": [
+        "sieć nieosiągalna"
+      ]
+    },
+    {
+      "id": 76,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 2001:db8:3040:114::88 i otrzymuje odpowiedź, która zawiera kod 4. Co reprezentuje ten kod?",
+      "options": [
+        "port nieosiągalny",
+        "nieosiągalny gospodarz",
+        "protokół nieosiągalny",
+        "sieć nieosiągalna"
+      ],
+      "correctAnswers": [
+        "port nieosiągalny"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "single",
+      "question": "Użytkownik wydaje polecenie ping 2001:db8:FACE:39::10 i otrzymuje odpowiedź, która zawiera kod 2. Co reprezentuje ten kod?",
+      "options": [
+        "poza zakresem adresu źródłowego",
+        "nieosiągalny gospodarz",
+        "protokół nieosiągalny",
+        "sieć nieosiągalna"
+      ],
+      "correctAnswers": [
+        "poza zakresem adresu źródłowego"
+      ]
+    }
+  ]
+}

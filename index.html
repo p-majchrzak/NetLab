@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071a33">
+<title>NETLAB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><div class="brand-mark">N</div><div><b>NET<span>LAB</span></b><small>NETWORK FUNDAMENTALS</small></div></div><div class="top-meta"><span class="live-dot"></span> TRYB TRENINGOWY <span class="top-divider"></span><span id="clock">00:00</span></div></header>
+<main class="shell">
+<section id="home" class="hero">
+  <div class="eyebrow"><span class="eyebrow-line"></span> CERTIFICATION PREP / QUIZ 01</div>
+  <h1>Sprawdź swoją<br><span>wiedzę sieciową.</span></h1>
+  <p class="intro">Ćwicz adresowanie IPv4/IPv6, podsieci i diagnostykę.</p>
+  <div class="stats"><div><b id="total-count">71</b><span>DOSTĘPNE PYTANIA</span></div><div><b>70%</b><span>PRÓG ZDANIA</span></div><div><b>20</b><span>PYTAŃ W TEŚCIE</span></div></div>
+  <div class="mode-grid">
+    <button class="mode-card" data-mode="random"><span class="mode-icon">↗</span><span class="mode-kicker">01 / QUICK PRACTICE</span><strong>Losowe pytanie</strong><small>Jedno pytanie, natychmiastowa informacja zwrotna.</small><span class="mode-arrow">→</span></button>
+    <button class="mode-card featured" data-mode="test"><span class="mode-icon">▤</span><span class="mode-kicker">02 / EXAM SIMULATION</span><strong>Test egzaminacyjny</strong><small>20 pytań jedno po drugim. Wynik i próg zaliczenia.</small><span class="mode-arrow">→</span></button>
+    <button class="mode-card" data-mode="study"><span class="mode-icon">⌘</span><span class="mode-kicker">03 / STUDY MODE</span><strong>Nauka po kolei</strong><small>Przejdź przez pytania w kolejności z dokumentu.</small><span class="mode-arrow">→</span></button>
+  </div>
+  <div class="home-bottom"><span>●</span> Odpowiedzi są mieszane przy każdym uruchomieniu. <span class="right-note">NETLAB • LOCAL TRAINING ENVIRONMENT</span></div>
+</section>
+<section id="quiz" class="quiz hidden">
+  <div class="quiz-head"><button id="exit" class="text-button">← Menu główne</button><div class="session-label" id="session-label">EXAM SIMULATION</div><div class="question-counter" id="counter">QUESTION 01 / 20</div></div>
+  <div class="progress-track"><div id="progress" class="progress-fill"></div></div>
+  <div class="quiz-layout"><aside class="side-panel"><div class="side-title">POSTĘP TESTU</div><div id="question-nav" class="question-nav"></div><div class="side-bottom"><span class="live-dot"></span> SESJA W TOKU</div></aside>
+  <article id="question-panel" class="question-panel"><div class="question-top"><span id="question-category" class="category">ADDRESSING</span><span id="question-id" class="qid">QUESTION #01</span></div><h2 id="question-title"></h2><p id="question-hint" class="hint"></p><div id="question-image-wrap" class="question-image-wrap hidden"><img id="question-image" alt="Ilustracja do pytania"></div><div id="answer-area" class="answer-area"></div><div id="feedback" class="feedback hidden"></div><div class="question-actions"><span id="select-note" class="select-note"></span><button id="check" class="primary-button">Sprawdź odpowiedź <span>→</span></button><button id="next" class="primary-button hidden">Następne pytanie <span>→</span></button></div></article></div>
+</section>
+<section id="results" class="results hidden"><div class="eyebrow"><span class="eyebrow-line"></span> SESSION COMPLETE</div><div id="result-symbol" class="result-symbol">✓</div><h1 id="result-title">Test zakończony</h1><p id="result-desc"></p><div class="result-stats"><div><span>WYNIK</span><b id="result-percent">0%</b></div><div><span>POPRAWNE</span><b id="result-correct">0 / 20</b></div><div><span>STATUS</span><b id="result-status">—</b></div></div><div class="leaderboard-submit"><div><h3>Opublikuj wynik</h3><p>Dodaj pseudonim i pokaż swój rezultat innym osobom.</p></div><div class="name-row"><input id="nickname" maxlength="18" placeholder="Twój pseudonim" autocomplete="off"><button id="publish" class="primary-button">Opublikuj wynik →</button></div><small id="publish-status"></small></div><div class="leaderboard"><div class="leaderboard-heading"><div><span class="mode-kicker">GLOBAL RANKING</span><h3>Tablica wyników</h3></div><button id="refresh-board" class="text-button">Odśwież ↻</button></div><div id="leaderboard-list" class="board-list"><div class="board-empty">Ładowanie wyników…</div></div></div><button id="again" class="secondary-button">Powrót do menu</button></section>
+<footer><span>NETLAB ASSESSMENT SYSTEM</span><span>IPv4 / IPv6 • FUNDAMENTALS</span><span>BUILD 1.0.0</span></footer>
+</main>
+<script type="module" src="app.js"></script>
+</body></html>
