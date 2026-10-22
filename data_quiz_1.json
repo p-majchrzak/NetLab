@@ -303,7 +303,7 @@
       "correctAnswers": [
         "10.16.10.64/27"
       ],
-      "image": "pictures/quiz_1/image_14.png"
+      "image": "pictures/quiz_1/image14.png"
     },
     {
       "id": 15,
@@ -384,7 +384,8 @@
             "192.168.0.80/30"
           ]
         ]
-      }
+      },
+      "image": "pictures/quiz_1/image17.png"
     },
     {
       "id": 18,
@@ -531,7 +532,7 @@
       "correctAnswers": [
         "link-lokalny"
       ],
-      "image": "pictures/quiz_1/image_27.png"
+      "image": "pictures/quiz_1/image27.png"
     },
     {
       "id": 28,
@@ -783,7 +784,7 @@
       "correctAnswers": [
         "R1"
       ],
-      "image": "pictures/quiz_1/image_40.png"
+      "image": "pictures/quiz_1/image40.png"
     },
     {
       "id": 41,
@@ -961,7 +962,7 @@
         "2001:DB8:1:2::1",
         "2001:DB8:1:3::2"
       ],
-      "image": "pictures/quiz_1/image_49.png"
+      "image": "pictures/quiz_1/image49.png"
     },
     {
       "id": 50,
